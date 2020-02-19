@@ -71,16 +71,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Congrats! You just created your first PHP web app in Azure App Service (Powered by CodeIgniter)!</h1>
 
 	<div id="body">
-		<p>This page could be the artsonline portion of ikt.</p>
+		<p>This one could be the SocialEnquiry part.....</p>
 
-		<p>See how easy it is to deploy a php app? We could even look at PHP5 to PHP7 conversion</p>
+		<p>Same github repo, different branch.</p>
 		
-		<p>Comes with MySQL database as requested</p>
+		<p>Also comes with MySQL database or any other compatible microservice</p>
 
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/Welcome.php</code>
 
-		<p>BTW, this stuff is really fun to play with.  I'm enjoying the self development.</p>
+		<p>I ran out of things to think of. Its currently 8:58pm</p>
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
