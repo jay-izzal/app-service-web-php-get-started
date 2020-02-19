@@ -71,11 +71,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Congrats! You just created your first PHP web app in Azure App Service (Powered by CodeIgniter)!</h1>
 
 	<div id="body">
-		<p>This page could be the artsonline portion of ikt.</p>
+		<p>This represents the home page for IKT.</p>
 
-		<p>See how easy it is to deploy a php app? We could even look at PHP5 to PHP7 conversion</p>
+		<p>The php repo lives in git and can integrate to Azure Pipelines, formerly VSTS.</p>
+		<p>The environment consists of one app service per website, one application gateway, 
+			(think ASM module in F5) which is responsible for directing application 
+			traffic accordingly, blob storage, and content storage. It's also templated
+		so can be created and destroyed in minutes. </p>
 		
-		<p>Comes with MySQL database as requested</p>
+		
+	
 
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/Welcome.php</code>
